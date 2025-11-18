@@ -32,11 +32,12 @@ main {
   flex-basis: 300px;
   background-color: black;
   padding: 30px 0;
-  color: white;
+  color: #a3a3a3;
   line-height: 3rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  font-size: 1rem;
 }
 .corpo-principale {
   height: 100%;
@@ -72,6 +73,7 @@ main {
 .icon-image-categoria {
   max-width: 2.5rem;
   margin-right: 10px;
+  color: #a3a3a3;
 }
 .border {
   border-left: 7px solid transparent;
@@ -82,7 +84,7 @@ main {
 .add-playlist span {
   color: black;
   padding: 15px;
-  background-color: blueviolet;
+  background-color: #a3a3a3;
 }
 .container-new-playlist {
   max-height: 200px;
@@ -93,11 +95,20 @@ main {
   margin-right: 10px;
 }
 .download-app {
-  border-bottom: 3px solid white;
+  border-bottom: 3px solid #a3a3a3;
 }
 .icon-image-profile {
   max-width: 3rem;
-  background-color: gray;
+  background-color:#a3a3a3;
   border-radius: 50%;
   margin-right: 10px;
+}
+.playlist h6 {
+    font-size: 1.5rem;
+    color: white;
+}
+.name-profile {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
 }
