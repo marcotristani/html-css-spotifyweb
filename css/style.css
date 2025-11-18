@@ -4,47 +4,72 @@
   box-sizing: border-box;
 }
 a {
-    display: inline-block;
-    color: inherit;
-    text-decoration: none;
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+.padding-left {
+  padding-left: 30px;
 }
 footer {
-    height: 100px;
-    background-color: gray;
+  height: 100px;
+  background-color: gray;
 }
 main {
-    display: flex;
-    height: calc(100vh - 100px);
-    background-color: red;
+  display: flex;
+  height: calc(100vh - 100px);
+  background-color: red;
 }
-.barra-laterale {
-    flex-grow: 0;
-    flex-shrink: 0;
-    height: 100%;
-    flex-basis: 400px;
-    background-color: black;
+.nav-bar-laterale {
+  flex-grow: 0;
+  flex-shrink: 0;
+  height: 100%;
+  flex-basis: 300px;
+  background-color: black;
+  padding: 30px 0;
+  color: white;
+  line-height: 3rem;
 }
 .corpo-principale {
-    height: 100%;
-    flex-basis: 100%;
-    background-color: blue;
-    overflow: auto;
+  height: 100%;
+  flex-basis: 100%;
+  background-color: blue;
+  overflow: auto;
 }
 .contenuto {
-    width: 100%;
+  width: 100%;
 }
 .upgrade-fixed {
-    width: 100%;
-    position: sticky;
-    top: 0;
-    text-align: end;
-    background-color: black;
-    opacity: 0.9;
-    color: white;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  text-align: end;
+  background-color: black;
+  opacity: 0.9;
+  color: white;
 }
 .upgrade-link {
-    padding: 5px 30px;
-    border: 2px solid white;
-    border-radius: 20px;
-    margin: 30px 5px;
+  padding: 5px 30px;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin: 30px 5px;
+}
+.img-logo {
+  max-width: 70%;
+}
+.categoria {
+  display: flex;
+  align-items: center;
+}
+.icon-image-categoria {
+  max-width: 2.5rem;
+}
+.border {
+    border-left: 7px solid transparent;
+}
+.home {
+    border-color: orange;
 }
