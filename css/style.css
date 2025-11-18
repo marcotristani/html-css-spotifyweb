@@ -11,8 +11,11 @@ a {
 li {
   list-style-type: none;
 }
-.padding-left {
-  padding-left: 30px;
+.padding-laterale {
+  padding: 0 30px;
+}
+.margin-top {
+    margin-top: 15px;
 }
 footer {
   height: 100px;
@@ -68,19 +71,33 @@ main {
 }
 .icon-image-categoria {
   max-width: 2.5rem;
+  margin-right: 10px;
 }
 .border {
-    border-left: 7px solid transparent;
+  border-left: 7px solid transparent;
 }
 .home {
-    border-color: orange;
+  border-color: orange;
 }
 .add-playlist span {
-    color: black;
-    padding: 15px;
-    background-color: blueviolet;
+  color: black;
+  padding: 15px;
+  background-color: blueviolet;
 }
 .container-new-playlist {
-    max-height: 200px;
-    overflow: scroll;
+  max-height: 200px;
+  overflow: scroll;
+}
+.icon-image-download {
+  max-width: 1.5rem;
+  margin-right: 10px;
+}
+.download-app {
+  border-bottom: 3px solid white;
+}
+.icon-image-profile {
+  max-width: 3rem;
+  background-color: gray;
+  border-radius: 50%;
+  margin-right: 10px;
 }
