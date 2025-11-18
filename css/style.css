@@ -3,3 +3,48 @@
   padding: 0;
   box-sizing: border-box;
 }
+a {
+    display: inline-block;
+    color: inherit;
+    text-decoration: none;
+}
+footer {
+    height: 100px;
+    background-color: gray;
+}
+main {
+    display: flex;
+    height: calc(100vh - 100px);
+    background-color: red;
+}
+.barra-laterale {
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 100%;
+    flex-basis: 400px;
+    background-color: black;
+}
+.corpo-principale {
+    height: 100%;
+    flex-basis: 100%;
+    background-color: blue;
+    overflow: auto;
+}
+.contenuto {
+    width: 100%;
+}
+.upgrade-fixed {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    text-align: end;
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+}
+.upgrade-link {
+    padding: 5px 30px;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 30px 5px;
+}
