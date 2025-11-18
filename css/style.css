@@ -21,7 +21,6 @@ footer {
 main {
   display: flex;
   height: calc(100vh - 100px);
-  background-color: red;
 }
 .nav-bar-laterale {
   flex-grow: 0;
@@ -32,6 +31,9 @@ main {
   padding: 30px 0;
   color: white;
   line-height: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .corpo-principale {
   height: 100%;
@@ -72,4 +74,13 @@ main {
 }
 .home {
     border-color: orange;
+}
+.add-playlist span {
+    color: black;
+    padding: 15px;
+    background-color: blueviolet;
+}
+.container-new-playlist {
+    max-height: 200px;
+    overflow: scroll;
 }

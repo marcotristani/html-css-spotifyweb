@@ -4,35 +4,76 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spotify</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <main>
       <nav class="nav-bar-laterale">
-        <div class="logo padding-left">
-          <img class="img-logo" src="./img/logo.svg" alt="">
+        <div class="header-nav-bar">
+          <div class="logo padding-left">
+            <img class="img-logo" src="./img/logo.svg" alt="" />
+          </div>
+          <ul class="categorie-nav-bar">
+            <li class="padding-left home border">
+              <a class="categoria" href="">
+                <img class="icon-image-categoria" src="./img/home.svg" alt="" />
+                <span>Home</span></a
+              >
+            </li>
+            <li class="padding-left cerca border">
+              <a class="categoria" href="">
+                <img
+                  class="icon-image-categoria"
+                  src="./img/search.svg"
+                  alt=""
+                />
+                <span>Cerca</span></a
+              >
+            </li>
+            <li class="padding-left librerie border">
+              <a class="categoria" href="">
+                <img
+                  class="icon-image-categoria"
+                  src="./img/libreria.svg"
+                  alt=""
+                />
+                <span>La tua libreria</span></a
+              >
+            </li>
+          </ul>
+          <div class="playlist padding-left">
+            <h6>PLAYLIST</h6>
+            <a class="add-playlist" href="">
+              <span><i class="fa-solid fa-plus"></i></span> Crea Playlist
+            </a>
+            <div class="container-new-playlist">
+              <ul>
+                <li><a href="#">New Playlist</a></li>
+                <li><a href="#">New Playlist</a></li>
+                <li><a href="#">New Playlist</a></li>
+                <li><a href="#">New Playlist</a></li>
+                <li><a href="#">New Playlist</a></li>
+                <li><a href="#">New Playlist</a></li>
+                <li><a href="#">New Playlist</a></li>
+                <li><a href="#">New Playlist</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
-       <ul class="categorie-nav-bar">
-        <li class="padding-left home border">
-          <a class="categoria" href="">
-            <img class="icon-image-categoria" src="./img/home.svg" alt="">
-            <span>Home</span></a>
-        </li>
-         <li class="padding-left cerca border">
-          <a class="categoria" href="">
-            <img class="icon-image-categoria" src="./img/search.svg" alt="">
-            <span>Cerca</span></a>
-        </li>
-         <li class="padding-left librerie border">
-          <a class="categoria" href="">
-            <img class="icon-image-categoria" src="./img/libreria.svg" alt="">
-            <span>La tua libreria</span></a>
-        </li>
-       </ul>        
+        <div class="footer-nav-bar">
+          aaaaaaa
+        </div>
       </nav>
       <div class="corpo-principale">
         <div class="upgrade-fixed">
-           <a class="upgrade-link" href="#">EFFETTUA UPGRADE</a>
+          <a class="upgrade-link" href="#">EFFETTUA UPGRADE</a>
         </div>
         <div class="contenuto">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem
