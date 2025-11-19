@@ -65,8 +65,12 @@ main {
 .img-logo {
   max-width: 70%;
 }
-.categoria img{
-vertical-align: middle;
+.img-logo-small {
+  display: none;
+  max-width: 2.5rem;
+}
+.categoria img {
+  vertical-align: middle;
 }
 .icon-image-categoria {
   max-width: 2.5rem;

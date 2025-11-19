@@ -1,0 +1,53 @@
+@media screen and (max-height: 850px) {
+  .container-new-playlist {
+    display: none;
+  }
+  footer {
+    position: sticky;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main .nav-bar-laterale {
+flex-basis: 3rem;
+line-height: 1rem;
+  }
+  .nav-bar-laterale .padding-laterale {
+    padding: 5px;
+  }
+  .logo .img-logo {
+    display: none;
+  }
+  .logo .img-logo-small {
+    display: block;
+  }
+  .categorie-nav-bar .icon-image-categoria {
+    margin: 0;
+    padding: 0;
+  }
+  .scompare {
+    display: none;
+  }
+  .categorie-nav-bar .border {
+    border: 0px;
+  }
+  .footer-nav-bar .download-app {
+    margin: 0;
+    border: 0;
+  }
+  .footer-nav-bar .download-app a {
+    display: block;
+    width: 2.5rem;
+    text-align: center;
+  }
+  .footer-nav-bar .download-app .icon-image-download {
+    margin: 0;
+  }
+  .footer-nav-bar  .icon-image-profile  {
+    margin: 5px;
+  }
+  .footer-nav-bar .margin-top {
+    margin: 0;
+  }
+
+}
