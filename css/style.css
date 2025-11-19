@@ -158,7 +158,6 @@ main {
 }
 .descrizione-brano-play {
   width: 50%;
-  text-wrap: nowrap;
 }
 .descrizione-brano-play h6 {
   font-size: large;
@@ -196,6 +195,7 @@ main {
 .barra {
   width: 70%;
   position: relative;
+  display: inline-block;
 }
 .barra-piena {
   display: inline-block;
@@ -234,4 +234,30 @@ main {
 }
 .comandi-generali li {
   margin-left: 10px;
+}
+.icone-brano-play :hover {
+  color: white;
+}
+.descrizione-brano-play .text-small :hover {
+  color: white;
+  text-decoration: underline;
+}
+.comandi-player #play-icon :hover {
+  font-size: 2.5rem;
+}
+
+.barra-riproduzione :hover .barra-piena {
+  border-color: orange;
+}
+.barra-riproduzione :hover .pallino {
+  display: inline-block;
+}
+.comandi-generali :hover .barra-piena {
+  border-color: orange;
+}
+.comandi-generali :hover .pallino {
+  display: inline-block;
+}
+.comandi-generali {
+  display: flex;
 }
