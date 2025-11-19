@@ -7,7 +7,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 552px) {
   main .nav-bar-laterale {
     flex-basis: 3rem;
     line-height: 1rem;
@@ -49,4 +49,20 @@
   .footer-nav-bar .margin-top {
     margin: 0;
   }
+}
+
+@media screen and (max-width : 800px){
+    footer .icone-brano-play {
+        text-wrap: wrap;
+        font-size: 1rem;
+    }
+    footer .wrapper-footer .descrizione-brano-play {
+        width : auto;
+    }
+    footer .comandi-generali {
+        width: 29%;
+    }
+    footer .copertina-brano-play {
+        width: 29%;
+    } 
 }
