@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+/*************regole generali*******************/
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -13,20 +14,24 @@ a {
 li {
   list-style-type: none;
 }
+/*********Utility class********/
 .padding-laterale {
   padding: 0 30px;
 }
 .margin-top {
   margin-top: 15px;
 }
+/*****************Regole pagina**********************/
+/*********Regole macrostruttura*********************/
 footer {
   height: 100px;
-  background-color: gray;
+  background-color: #282828;
 }
 main {
   display: flex;
   height: calc(100vh - 100px);
 }
+/*****************Regole nav-bar*************************/
 .nav-bar-laterale {
   flex-grow: 0;
   flex-shrink: 0;
@@ -41,30 +46,7 @@ main {
   justify-content: space-between;
   font-size: 1rem;
 }
-.corpo-principale {
-  height: 100%;
-  flex-basis: 100%;
-  background-color: blue;
-  overflow: auto;
-}
-.contenuto {
-  width: 100%;
-}
-.upgrade-fixed {
-  width: 100%;
-  position: sticky;
-  top: 0;
-  text-align: end;
-  background-color: black;
-  opacity: 0.9;
-  color: white;
-}
-.upgrade-link {
-  padding: 5px 30px;
-  border: 2px solid white;
-  border-radius: 20px;
-  margin: 30px 5px;
-}
+
 .img-logo {
   max-width: 70%;
 }
@@ -121,4 +103,76 @@ main {
 }
 .hover-white :hover {
   color: white;
+}
+/*************Regole parte principale******************/
+.corpo-principale {
+  height: 100%;
+  flex-basis: 100%;
+  background-color: blue;
+  overflow: auto;
+}
+.contenuto {
+  width: 100%;
+}
+.upgrade-fixed {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  text-align: end;
+  background-color: black;
+  opacity: 0.9;
+  color: white;
+}
+.upgrade-link {
+  padding: 5px 30px;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin: 30px 5px;
+}
+/*************Regole footer**********************/
+.wrapper-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 100px;
+}
+.copertina-brano-play {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 20%;
+}
+.img-copertina-brano-play {
+  width: 20%;
+}
+.img-copertina-brano-play img {
+  max-width: 100%;
+}
+.descrizione-brano-play {
+  width: 50%;
+}
+.icone-brano-play {
+  width: 25%;
+}
+.comandi-player {
+  width: 40%;
+  margin: 0 auto;
+}
+.icone-comandi-play ul {
+  display: flex;
+  justify-content: center;
+}
+.barra-riproduzione ul {
+  display: flex;
+  justify-content: center;
+}
+.comandi-generali {
+
+  width: 20%;
+} 
+.comandi-generali ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
