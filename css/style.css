@@ -21,6 +21,12 @@ li {
 .margin-top {
   margin-top: 15px;
 }
+.text-small {
+  font-size: small;
+}
+.text-gray {
+  color: gray;
+}
 /*****************Regole pagina**********************/
 /*********Regole macrostruttura*********************/
 footer {
@@ -136,6 +142,7 @@ main {
   align-items: center;
   padding: 10px;
   height: 100px;
+  color: white;
 }
 .copertina-brano-play {
   display: flex;
@@ -152,9 +159,15 @@ main {
 .descrizione-brano-play {
   width: 50%;
 }
+.descrizione-brano-play h6 {
+  font-size: large;
+}
 .icone-brano-play {
   width: 25%;
+  font-size: 1.5rem;
+  text-wrap: nowrap;
 }
+/**/
 .comandi-player {
   width: 40%;
   margin: 0 auto;
@@ -162,10 +175,56 @@ main {
 .icone-comandi-play ul {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+.icone-comandi-play li{
+  font-size: 1.5rem;
+  margin: 0 10px;
+}
+.icone-comandi-play #play-icon {
+  font-size: 2rem;
+  background-color: white;
+  color: #282828;
+  border-radius: 50%;
 }
 .barra-riproduzione ul {
   display: flex;
   justify-content: center;
+  margin-top: 5px;
+  align-items: center;
+}
+.barra {
+  width: 70%;
+  position: relative;
+}
+.barra-piena{
+  display: inline-block;
+  width: 17%;
+  border: 3px solid white;
+  border-bottom-left-radius: 30%;
+  border-top-left-radius: 30%;
+  margin-left: 3%;
+  vertical-align: middle;
+
+}
+.barra-vuota {
+  display: inline-block;
+  width: 77%;
+  border: 3px solid gray;
+  border-bottom-right-radius: 30%;
+  border-top-right-radius: 30%;
+  margin-right: 3%;
+  vertical-align: middle;
+}
+.pallino {
+  display: none;
+  padding: 10px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 19%;
+  
 }
 .comandi-generali {
 
@@ -175,4 +234,7 @@ main {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+.comandi-generali li {
+  margin-left : 10px;
 }
