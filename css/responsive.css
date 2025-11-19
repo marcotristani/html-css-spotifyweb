@@ -9,8 +9,8 @@
 
 @media screen and (max-width: 600px) {
   main .nav-bar-laterale {
-flex-basis: 3rem;
-line-height: 1rem;
+    flex-basis: 3rem;
+    line-height: 1rem;
   }
   .nav-bar-laterale .padding-laterale {
     padding: 5px;
@@ -43,11 +43,10 @@ line-height: 1rem;
   .footer-nav-bar .download-app .icon-image-download {
     margin: 0;
   }
-  .footer-nav-bar  .icon-image-profile  {
+  .footer-nav-bar .icon-image-profile {
     margin: 5px;
   }
   .footer-nav-bar .margin-top {
     margin: 0;
   }
-
 }
