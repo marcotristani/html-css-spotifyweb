@@ -116,7 +116,7 @@ main {
 .hover-white :hover {
   color: white;
 }
-.hover-white :hover img{
+.hover-white :hover img {
   filter: contrast(100%);
 }
 /*************Regole parte principale******************/
@@ -148,10 +148,10 @@ main {
   border: 2px solid white;
   border-radius: 20px;
 }
-.upgrade-fixed :hover{
+.upgrade-fixed :hover {
   font-size: 1.5rem;
 }
-.nav-bar-contenuto ul{
+.nav-bar-contenuto ul {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -172,15 +172,18 @@ main {
 .contenuto h3 {
   font-size: 2rem;
   font-weight: bolder;
+  padding-top: 15px;
 }
 .contenuto p {
-  font-size:medium;
+  font-size: medium;
   font-weight: 500;
   filter: contrast(50%);
+  padding: 15px 0;
 }
 .contenuto h5 {
   font-size: 1.5rem;
   font-weight: bold;
+  padding: 15px 0;
 }
 .contenitore-album-recently {
   display: flex;
@@ -194,11 +197,16 @@ main {
 .singolo-album-blocco {
   line-height: 1.5rem;
   width: calc(100% / 2);
-  text-align: center;
-  padding: 20px;
+  padding: 20px 20px 20px 0;
 }
 .singolo-album-blocco img {
   max-width: 100%;
+}
+.text-center {
+  text-align: center;
+}
+.artisti-popolari img {
+  border-radius: 50%;
 }
 /*************Regole footer**********************/
 .wrapper-footer {
