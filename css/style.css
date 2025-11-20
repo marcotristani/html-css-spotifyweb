@@ -60,8 +60,10 @@ main {
   display: none;
   max-width: 2.5rem;
 }
+
 .categoria img {
   vertical-align: middle;
+  filter: contrast(50%);
 }
 .icon-image-categoria {
   max-width: 2.5rem;
@@ -73,6 +75,10 @@ main {
 }
 .home {
   border-color: orange;
+  color: white;
+}
+.home img {
+  filter: contrast(100%);
 }
 .add-playlist .icon-add {
   color: black;
@@ -109,6 +115,9 @@ main {
 }
 .hover-white :hover {
   color: white;
+}
+.hover-white :hover img{
+  filter: contrast(100%);
 }
 /*************Regole parte principale******************/
 .corpo-principale {
