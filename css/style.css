@@ -255,9 +255,6 @@ main {
 }
 .icone-comandi-play #play-icon {
   font-size: 2rem;
-  background-color: white;
-  color: #282828;
-  border-radius: 50%;
 }
 .barra-riproduzione ul {
   display: flex;
@@ -316,7 +313,7 @@ main {
   text-decoration: underline;
 }
 .comandi-player #play-icon :hover {
-  font-size: 2.5rem;
+  transform: scale(1.6);
 }
 
 .barra-riproduzione :hover .barra-piena {
