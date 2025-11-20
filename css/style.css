@@ -114,11 +114,13 @@ main {
 .corpo-principale {
   height: 100%;
   flex-basis: 100%;
-  background-color: blue;
+  background-color: #141922;
   overflow: auto;
+  color: white;
 }
 .contenuto {
   width: 100%;
+  padding: 20px;
 }
 .upgrade-fixed {
   width: 100%;
@@ -139,6 +141,24 @@ main {
 }
 .upgrade-fixed :hover{
   font-size: 1.5rem;
+}
+.nav-bar-contenuto ul{
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  filter: contrast(50%);
+}
+.nav-bar-contenuto li {
+  padding: 0 10px 30px 10px;
+}
+.nav-bar-contenuto .selezionato {
+  margin: 0 auto;
+  border: 4px solid transparent;
+  width: 40px;
+}
+.nav-bar-contenuto #in-evidenza {
+  border-color: orange;
 }
 /*************Regole footer**********************/
 .wrapper-footer {
