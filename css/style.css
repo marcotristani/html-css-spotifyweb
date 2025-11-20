@@ -190,23 +190,20 @@ main {
 .contenitore-album-recently {
   display: flex;
   width: 100%;
-}
-.blocco-bialbum {
-  display: flex;
-  width: calc(100% / 3);
+  gap: 20px;
 }
 .singolo-album-blocco {
   line-height: 1.5rem;
-  width: calc(100% / 2);
-  padding: 20px 20px 20px 0;
+  width: calc(100% / 6 - 20px / 6);
 }
 .singolo-album-blocco img {
   max-width: 100%;
 }
 .text-center {
   text-align: center;
+  max-width: 100%;
 }
-.artisti-popolari img , .hover-img{
+.artisti-popolari img {
   border-radius: 50%;
 }
 .img-album {
@@ -229,6 +226,13 @@ main {
 }
 .singolo-album-blocco :hover .hover-img {
   display: table;
+}
+.artisti-popolari .hover-img {
+  border-radius: 50%;
+}
+.blocco-bialbum {
+  display: flex;
+  gap: 20px;
 }
 /*************Regole footer**********************/
 .wrapper-footer {
@@ -352,4 +356,84 @@ main {
 }
 .comandi-generali {
   display: flex;
+}
+
+@media screen and (max-height: 850px) {
+  .container-new-playlist {
+    display: none;
+  }
+  footer {
+    position: sticky;
+  }
+}
+
+@media screen and (max-width: 552px) {
+  main .nav-bar-laterale {
+    flex-basis: 3rem;
+    line-height: 1rem;
+  }
+  .nav-bar-laterale .padding-laterale {
+    padding: 5px;
+  }
+  .logo .img-logo {
+    display: none;
+  }
+  .logo .img-logo-small {
+    display: block;
+  }
+  .categorie-nav-bar .icon-image-categoria {
+    margin: 0;
+    padding: 0;
+  }
+  .scompare {
+    display: none;
+  }
+  .categorie-nav-bar .border {
+    border: 0px;
+  }
+  .footer-nav-bar .download-app {
+    margin: 0;
+    border: 0;
+  }
+  .footer-nav-bar .download-app a {
+    display: block;
+    width: 2.5rem;
+    text-align: center;
+  }
+  .footer-nav-bar .download-app .icon-image-download {
+    margin: 0;
+  }
+  .footer-nav-bar .icon-image-profile {
+    margin: 5px;
+  }
+  .footer-nav-bar .margin-top {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width : 800px){
+    footer .icone-brano-play {
+        text-wrap: wrap;
+        font-size: 1rem;
+    }
+    footer .wrapper-footer .descrizione-brano-play {
+        width : auto;
+    }
+    footer .comandi-generali {
+        width: 29%;
+    }
+    footer .copertina-brano-play {
+        width: 29%;
+    } 
+    .contenuto .singolo-album-blocco {
+      width: calc(100% / 2 - 20px);
+    }
+}
+@media screen and (max-width: 1200px) {
+    .contenitore-album-recently {
+      flex-wrap: wrap;
+    }
+   .singolo-album-blocco {
+      width: calc(100% / 4 - 20px);
+    }
 }
