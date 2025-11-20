@@ -169,6 +169,37 @@ main {
 .nav-bar-contenuto #in-evidenza {
   border-color: orange;
 }
+.contenuto h3 {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.contenuto p {
+  font-size:medium;
+  font-weight: 500;
+  filter: contrast(50%);
+}
+.contenuto h5 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.contenitore-album-recently {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.blocco-bialbum {
+  display: flex;
+  width: calc(100% / 3);
+}
+.singolo-album-blocco {
+  line-height: 1.5rem;
+  width: calc(100% / 2);
+  text-align: center;
+  padding: 20px;
+}
+.singolo-album-blocco img {
+  max-width: 100%;
+}
 /*************Regole footer**********************/
 .wrapper-footer {
   display: flex;
