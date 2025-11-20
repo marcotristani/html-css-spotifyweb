@@ -115,6 +115,7 @@ main {
 }
 .hover-white :hover {
   color: white;
+  filter: contrast(100%);
 }
 .hover-white :hover img {
   filter: contrast(100%);
@@ -156,7 +157,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  filter: contrast(50%);
+  color: #a3a3a3;
 }
 .nav-bar-contenuto li {
   padding: 0 10px 30px 10px;
@@ -177,7 +178,7 @@ main {
 .contenuto p {
   font-size: medium;
   font-weight: 500;
-  filter: contrast(50%);
+  color: #a3a3a3;
   padding: 15px 0;
 }
 .contenuto h5 {
