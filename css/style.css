@@ -187,7 +187,6 @@ main {
 }
 .contenitore-album-recently {
   display: flex;
-  flex-wrap: wrap;
   width: 100%;
 }
 .blocco-bialbum {

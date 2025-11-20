@@ -65,4 +65,18 @@
     footer .copertina-brano-play {
         width: 29%;
     } 
+    .corpo-principale .contenitore-album-recently {
+      display: block;
+    }
+    .corpo-principale .contenuto .blocco-bialbum {
+      width: 100%;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .contenitore-album-recently {
+      flex-wrap: wrap;
+    }
+    .contenuto .blocco-bialbum {
+      width: 50%;
+    }
 }
