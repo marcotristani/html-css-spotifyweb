@@ -199,7 +199,7 @@ main {
 }
 .singolo-album-blocco {
   line-height: 1.2rem;
-  width: calc(100% / 6 - 20px / 6);
+  width: calc( (100% / 6) - 15px + (15px / 6) );
 }
 .singolo-album-blocco img {
   max-width: 100%;
@@ -442,7 +442,7 @@ main {
         width: 29%;
     } 
     .contenuto .singolo-album-blocco {
-      width: calc(100% / 2 - 20px);
+      width: calc( ( 100% / 2 ) - 15px + ( 15px / 2 ) );
     }
 }
 @media screen and (max-width: 1000px) {
@@ -450,7 +450,7 @@ main {
       flex-wrap: wrap;
     }
    .singolo-album-blocco {
-      width: calc(100% / 4 - 20px);
+      width: calc( ( 100% / 4 ) - 15px + ( 15px / 4 ) );
     }
 }
 @media screen and (max-width : 350px){
