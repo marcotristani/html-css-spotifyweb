@@ -7,6 +7,12 @@
 /*************regole generali*******************/
 body {
   font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+.schermo-down {
+  height: 100vh;
+  display: none;
+  background-color: black;
 }
 a {
   color: inherit;
@@ -17,10 +23,10 @@ li {
 }
 /*********Utility class********/
 .padding-laterale {
-  padding: 0 30px;
+  padding: 0 20px;
 }
 .margin-top {
-  margin-top: 15px;
+  margin-top: 10px;
 }
 .text-small {
   font-size: small;
@@ -31,23 +37,23 @@ li {
 /*****************Regole pagina**********************/
 /*********Regole macrostruttura*********************/
 footer {
-  height: 100px;
+  height: 70px;
   background-color: #282828;
 }
 main {
   display: flex;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 70px);
 }
 /*****************Regole nav-bar*************************/
 .nav-bar-laterale {
   flex-grow: 0;
   flex-shrink: 0;
   height: 100%;
-  flex-basis: 300px;
+  flex-basis: 200px;
   background-color: black;
-  padding: 30px 0;
+  padding: 20px 0;
   color: #a3a3a3;
-  line-height: 3rem;
+  line-height: 1.7rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -55,11 +61,11 @@ main {
 }
 
 .img-logo {
-  max-width: 70%;
+  max-width: 80%;
 }
 .img-logo-small {
   display: none;
-  max-width: 2.5rem;
+  max-width: 1.8rem;
 }
 
 .categoria img {
@@ -67,12 +73,12 @@ main {
   filter: contrast(50%);
 }
 .icon-image-categoria {
-  max-width: 2.5rem;
-  margin-right: 10px;
+  max-width: 1.8rem;
+  margin-right: 7px;
   color: #a3a3a3;
 }
 .border {
-  border-left: 7px solid transparent;
+  border-left: 4px solid transparent;
 }
 .home {
   border-color: orange;
@@ -83,7 +89,7 @@ main {
 }
 .add-playlist .icon-add {
   color: black;
-  padding: 15px;
+  padding: 7px;
   background-color: #a3a3a3;
 }
 .container-new-playlist {
@@ -92,25 +98,25 @@ main {
 }
 .icon-image-download {
   max-width: 1.5rem;
-  margin-right: 10px;
+  margin-right: 7px;
 }
 .download-app {
   padding: 0;
-  margin: 0 30px;
-  border-bottom: 3px solid #a3a3a3;
+  margin: 0 20px;
+  border-bottom: 2px solid #a3a3a3;
 }
 .icon-image-profile {
-  max-width: 3rem;
+  max-width: 2rem;
   background-color: #a3a3a3;
   border-radius: 50%;
-  margin-right: 10px;
+  margin-right: 7px;
 }
 .playlist h6 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: white;
 }
 .name-profile {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: white;
   font-weight: bold;
 }
@@ -131,12 +137,12 @@ main {
 }
 .contenuto {
   width: 100%;
-  padding: 20px;
+  padding: 15px;
 }
 .upgrade-fixed {
   width: 100%;
-  height: 100px;
-  line-height: 100px;
+  height: 60px;
+  line-height: 60px;
   vertical-align: middle;
   text-align: end;
   position: sticky;
@@ -147,12 +153,12 @@ main {
   z-index: 900;
 }
 .upgrade-link {
-  padding: 5px 30px;
-  border: 2px solid white;
+  padding: 4px 2cqw;
+  border: 1.5px solid white;
   border-radius: 20px;
 }
 .upgrade-fixed :hover {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .nav-bar-contenuto ul {
   margin: 0 auto;
@@ -173,28 +179,26 @@ main {
   border-color: orange;
 }
 .contenuto h3 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: bolder;
-  padding-top: 15px;
+  padding-top: 10px;
 }
 .contenuto p {
-  font-size: medium;
-  font-weight: 500;
   color: #a3a3a3;
-  padding: 15px 0;
+  padding: 12px 0;
 }
 .contenuto h5 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: bold;
-  padding: 15px 0;
+  padding: 10px 0;
 }
 .contenitore-album-recently {
   display: flex;
   width: 100%;
-  gap: 20px;
+  gap: 15px;
 }
 .singolo-album-blocco {
-  line-height: 1.5rem;
+  line-height: 1.2rem;
   width: calc(100% / 6 - 20px / 6);
 }
 .singolo-album-blocco img {
@@ -223,7 +227,9 @@ main {
 .hover-img a {
   display: table-cell;
   vertical-align: middle;
-  font-size: 3rem;
+}
+.hover-img i {
+    font-size: 3rem;
 }
 .singolo-album-blocco :hover .hover-img {
   display: table;
@@ -233,15 +239,15 @@ main {
 }
 .blocco-bialbum {
   display: flex;
-  gap: 20px;
+  gap: 15px;
 }
 /*************Regole footer**********************/
 .wrapper-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
-  height: 100px;
+  padding: 8px;
+  height: 70px;
   color: white;
 }
 .copertina-brano-play {
@@ -264,8 +270,10 @@ main {
 }
 .icone-brano-play {
   width: 25%;
-  font-size: 1.5rem;
   text-wrap: nowrap;
+}
+.icone-brano-play i {
+    font-size: 1.5rem;
 }
 .comandi-player {
   width: 40%;
@@ -280,7 +288,7 @@ main {
   font-size: large;
   margin: 0 3%;
 }
-.icone-comandi-play #play-icon {
+.icone-comandi-play #play-icon i {
   font-size: 2rem;
 }
 .barra-riproduzione ul {
@@ -297,7 +305,7 @@ main {
 .barra-piena {
   display: inline-block;
   width: 17%;
-  border: 3px solid white;
+  border: 2px solid white;
   border-bottom-left-radius: 30%;
   border-top-left-radius: 30%;
   margin-left: 3%;
@@ -306,7 +314,7 @@ main {
 .barra-vuota {
   display: inline-block;
   width: 77%;
-  border: 3px solid gray;
+  border: 2px solid gray;
   border-bottom-right-radius: 30%;
   border-top-right-radius: 30%;
   margin-right: 3%;
@@ -314,7 +322,7 @@ main {
 }
 .pallino {
   display: none;
-  padding: 10px;
+  padding: 7px;
   background-color: white;
   border-radius: 50%;
   position: absolute;
@@ -330,7 +338,7 @@ main {
   align-items: center;
 }
 .comandi-generali li {
-  margin-left: 10px;
+  margin-left: 8px;
 }
 .icone-brano-play :hover {
   color: white;
@@ -359,19 +367,23 @@ main {
   display: flex;
 }
 
-@media screen and (max-height: 850px) {
+@media screen and (max-height: 560px) {
   .container-new-playlist {
-    display: none;
+    max-height: 80px;
   }
   footer {
     position: sticky;
   }
 }
+@media screen and (max-height: 450px) {
+  .container-new-playlist {
+    display: none;
+  }
+}
 
 @media screen and (max-width: 552px) {
   main .nav-bar-laterale {
-    flex-basis: 3rem;
-    line-height: 1rem;
+    flex-basis: 2.5rem;
   }
   .nav-bar-laterale .padding-laterale {
     padding: 5px;
@@ -383,29 +395,32 @@ main {
     display: block;
   }
   .categorie-nav-bar .icon-image-categoria {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
   }
   .scompare {
     display: none;
   }
-  .categorie-nav-bar .border {
+  .border {
     border: 0px;
   }
   .footer-nav-bar .download-app {
-    margin: 0;
+    margin: 0 auto;
     border: 0;
+    padding-left: 0;
   }
   .footer-nav-bar .download-app a {
     display: block;
-    width: 2.5rem;
+    width: 2rem;
     text-align: center;
+    margin: 0;
+    padding: 0;
   }
   .footer-nav-bar .download-app .icon-image-download {
     margin: 0;
   }
   .footer-nav-bar .icon-image-profile {
-    margin: 5px;
+    margin: 0;
   }
   .footer-nav-bar .margin-top {
     margin: 0;
@@ -415,7 +430,7 @@ main {
 @media screen and (max-width : 800px){
     footer .icone-brano-play {
         text-wrap: wrap;
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     footer .wrapper-footer .descrizione-brano-play {
         width : auto;
@@ -430,11 +445,22 @@ main {
       width: calc(100% / 2 - 20px);
     }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
     .contenitore-album-recently {
       flex-wrap: wrap;
     }
    .singolo-album-blocco {
       width: calc(100% / 4 - 20px);
     }
+}
+@media screen and (max-width : 350px){
+  main {
+    display: none;
+  }
+  footer {
+    display: none;
+  }
+  .schermo-down {
+    display: block;
+  }
 }
